@@ -6,16 +6,17 @@ public class Ass8 {
         Scanner r =new Scanner (System.in);
         num1 = r.nextInt();
         num2 = r.nextInt();
+
         System.out.println("Enter any operand (+,-,/,*,%): ");
         char opr = r.next().charAt(0);
+
         double operation = 0;
-        switch (operation) {
-            case '+': operation = num1 +num2;break;
-            case '-': operation = num1 -num2;break;
-            case '*': operation = num1 *num2;break;
-            case '/': operation = num1 /num2;break;
-            case '%': operation = num1 %num2;break;
-        
+        switch (opr) {
+            case '+': operation = num1 + num2; System.out.println(operation);break;
+            case '-': operation = num1 - num2; System.out.println(operation);break;
+            case '*': operation = num1 * num2; System.out.println(operation);break;
+            case '/': operation = num1 / num2; System.out.println(operation);break;
+            case '%': operation = num1 % num2; System.out.println(operation);break;
             default: System.out.println("Invalid input");
                 break;
         }

@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class array_sum {
     public static void main(String[] args) {
         int a[] =new int[5]; int sum=0;
-    System.out.print("Enter Elments in Array ");
+    System.out.print("Enter Elements in Array ");
     Scanner ref =new Scanner(System.in);
     for(int i=0; i<a.length; i++)    //for(int i=0; i<5; i++)
     {

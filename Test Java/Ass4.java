@@ -1,3 +1,5 @@
+//writa a java program to find factorial of a number
+
 import java.util.Scanner;
 public class Ass4 {
     public static void main(String[] args) {

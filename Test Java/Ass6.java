@@ -1,3 +1,5 @@
+// Writa a java program to check whether a number is plaindeom number or not
+
 public class Ass6 {
     public static void main(String[] args) {
         int num= 121; int r =0; int t = num ;

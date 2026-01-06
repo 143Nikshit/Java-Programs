@@ -1,3 +1,5 @@
+// Java Program to check whether a number is Perfect Number or not
+
 import java.util.Scanner;
 class Ass1{
     public static void main(String[] args) {

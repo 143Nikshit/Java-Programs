@@ -1,4 +1,4 @@
-// Writa a java program ti find the 2nd maximum number among 5 numbers
+// Writa a java program to find the 2nd maximum number among 5 numbers
 
 public class Ass2 {
     public static void main(String[] args) {

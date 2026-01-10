@@ -1,7 +1,7 @@
 /* Vowel or Consonant in Java */
 
 import java.util.Scanner;
-class Check
+class Ass15
 {
  public static void main(String args[])
  { 

@@ -1,4 +1,4 @@
-// Writa a java program to check whether a number is plaindeom number or not
+// Writa a java program to check whether a number is plaindrome number or not
 
 public class Ass6 {
     public static void main(String[] args) {
@@ -7,11 +7,11 @@ public class Ass6 {
             r = r *10 + num%10;
             num = num / 10;
         }
-        if(t == num){
-            System.out.println("It is not a plaindeom number");
+        if(t == r){
+            System.out.println("It is a plaindrome number");
         }
         else{
-            System.out.println("It is not a plaindeom number");
+            System.out.println("It is not a plaindrome number");
         }
     }
 }

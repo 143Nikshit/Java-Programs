@@ -1,4 +1,4 @@
-//writa a java program to find factorial of a number
+//write a java program to find factorial of a number
 
 import java.util.Scanner;
 public class Ass4 {

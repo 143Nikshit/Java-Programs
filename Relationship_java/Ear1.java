@@ -14,17 +14,17 @@ class Student {
     private String name;
     private Library library;
 
-    Student(String name) {
-        this.name = name;
-        this.library = new Library("Java Programming"); // Early Instantiation
-    }
-
     public String getName() {
         return name;
     }
 
     public Library getLibrary() {
         return library;
+    }
+
+    Student(String name) {
+        this.name = name;
+        this.library = new Library("Java Programming"); // Early Instantiation
     }
 }
 

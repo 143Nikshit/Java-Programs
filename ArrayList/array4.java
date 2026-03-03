@@ -14,14 +14,14 @@ public class array4 {
         this.Edept = Edept;
     }
 
-    public void setEmployee(int EmpId, String Ename, String Ejob, double Esal, String Edept)
-    {
-        this.EmpId = EmpId;
-        this.Ename = Ename;
-        this.Ejob = Ejob;
-        this.Esal = Esal;
-        this.Edept = Edept;
-    }
+    // public void setEmployee(int EmpId, String Ename, String Ejob, double Esal, String Edept)
+    // {
+    //     this.EmpId = EmpId;
+    //     this.Ename = Ename;
+    //     this.Ejob = Ejob;
+    //     this.Esal = Esal;
+    //     this.Edept = Edept;
+    // }
 
     // overriding to string metod
     public String toString()

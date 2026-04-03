@@ -10,7 +10,7 @@ public class Driver {
         System.out.println(c1.getModelName()); // Tata Nano
 
         // OX2: Engine object is created separately
-        Engine e1 = new Engine(1400);
+        Engine e1 = new Engine(1400.0);
 
         // Engine object is assigned to Car
         c1.setEngine(e1);
